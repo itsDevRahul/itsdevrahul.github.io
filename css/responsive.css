@@ -17,6 +17,11 @@
         border-radius: 25px;
     }
 
+    .button2{
+        font-size: 18px;
+        padding: 10px 40px;
+    }
+
     .pera2 {
         font-size: 16px;
         overflow: hidden;
@@ -32,7 +37,8 @@
     }
 
     .mini-heading3 {
-        font-size: 22px;
+        font-size: 18px;
+        margin-bottom: unset;
     }
 
     .form-input{
@@ -83,17 +89,13 @@
         height: 95vh;
     }
 
-    .devider-container{
-        display: flex;
-    }
-
     .about {
         flex-direction: column;
         justify-content: space-evenly;
     }
 
     .col {
-        width: 90%;
+        width: 100%;
     }
 
     .card-container {
@@ -106,6 +108,7 @@
     .card {
         width: 90%;
         height: unset;
+        padding: 10px;
     }
 
     #customer_service{
@@ -119,7 +122,11 @@
         gap: 15px;
     }
 
-    .form-input,
+    .form-input{
+        width: 100%;
+        padding: 20px;
+    }
+
     .button3 {
         width: 100%;
     }

@@ -146,22 +146,6 @@ nav {
     color: white;
 }
 
-.devider-container{
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    gap: 25px;
-}
-
-.devider{
-    height: 8px;
-    width: 90%;
-    background-color: var(--lightColor);
-    box-shadow: 0 0 20px var(--lightTransparent);
-    border-radius: 10px;
-}
-
 .mini-heading1 {
     font-size: 28px;
     color: rgb(255, 255, 255);
@@ -177,7 +161,7 @@ nav {
 }
 
 .pera1 {
-    color: white;
+    color: rgba(255, 255, 255, 0.85);
     font-size: 16px;
     margin-bottom: 20px;
 }
