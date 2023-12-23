@@ -1,5 +1,4 @@
 
-
 function changeColor(color) {
     var r = document.querySelector('html');
     var color1 = color;
@@ -72,3 +71,23 @@ function lightOrDark(color) {
         return false;
     }
 }
+
+const menuBar = document.querySelector('#menu-bar');
+const menu = document.querySelectorAll('.menu')[0];
+const i = document.querySelectorAll('i');
+i[1].style.display = 'none';
+
+menuBar.addEventListener(
+    'click',
+    function(){
+        if(menu.style.display == ''){
+            menu.style.display = 'flex';
+            i[0].style.display = 'none';
+            i[1].style.display = 'block';
+        }else{
+            menu.style.display = '';
+            i[0].style.display = 'block';
+            i[1].style.display = 'none';
+        }
+    }
+)
