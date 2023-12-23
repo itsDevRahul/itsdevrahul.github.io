@@ -50,14 +50,12 @@
     }
 
     .card-pro-container{
-        height: 60%;
         flex-direction: column;
-        overflow: scroll;
         justify-content: unset;
     }
 
     .card-pro {
-        width: 90%;
+        width: 100%;
         height: 40%;
     }
 
@@ -86,12 +84,29 @@
     .home {
         flex-direction: column;
         justify-content: space-evenly;
-        height: 95vh;
+        /* height: 95vh; */
+        height: unset;
+        padding: 10px;
+        padding-bottom: 40px;
+        gap: 30px;
     }
 
     .about {
         flex-direction: column;
         justify-content: space-evenly;
+        height: unset;
+        padding: 10px;
+        padding-bottom: 40px;
+        gap: 20px;
+    }
+
+    .services,
+    .projects,
+    .contact{
+        height: unset;
+        padding: 10px;
+        padding-bottom: 40px;
+        gap: 20px;
     }
 
     .col {
