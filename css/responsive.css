@@ -84,8 +84,6 @@
     .home {
         flex-direction: column;
         justify-content: space-evenly;
-        /* height: 95vh; */
-        height: unset;
         padding: 10px;
         padding-bottom: 40px;
         gap: 30px;
@@ -94,7 +92,6 @@
     .about {
         flex-direction: column;
         justify-content: space-evenly;
-        height: unset;
         padding: 10px;
         padding-bottom: 40px;
         gap: 20px;
@@ -103,7 +100,6 @@
     .services,
     .projects,
     .contact{
-        height: unset;
         padding: 10px;
         padding-bottom: 40px;
         gap: 20px;
@@ -172,22 +168,3 @@
     }
 
 }
-
-@media only screen and (min-width:768px) and (max-width:1420px) {
-
-    .container {
-        padding: 0 20px;
-    }
-}
-
-/* @media only screen and (min-width:768px){
-    .home,
-    .about,
-    .services,
-    .projects,
-    .contact{
-        height: unset;
-        padding: 6% 10px;
-        gap: 40px;
-    }
-} */
