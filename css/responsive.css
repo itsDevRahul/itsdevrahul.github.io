@@ -179,3 +179,15 @@
         padding: 0 20px;
     }
 }
+
+/* @media only screen and (min-width:768px){
+    .home,
+    .about,
+    .services,
+    .projects,
+    .contact{
+        height: unset;
+        padding: 6% 10px;
+        gap: 40px;
+    }
+} */

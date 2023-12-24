@@ -114,15 +114,21 @@ nav {
     background-color: var(--lightColor);
 }
 
-#menu-bar{
+#menu-bar {
     display: none;
     cursor: pointer;
     padding: 5px;
     transition: 0.5s;
 }
 
-.home {
-    height: 85vh;
+.home,
+.about,
+.services,
+.projects,
+.contact {
+    height: unset;
+    padding: 6% 10px;
+    gap: 40px;
 }
 
 .col {
@@ -227,14 +233,6 @@ nav {
     transform: scale(0.65, 0.65) translateY(-30px) translateX(30px);
 }
 
-.about {
-    height: 100vh;
-}
-
-.services {
-    height: 100vh;
-}
-
 .card-container {
     height: 60%;
 }
@@ -296,11 +294,6 @@ nav {
     transition: 0.5s;
 }
 
-.projects {
-    height: 100vh;
-
-}
-
 .card-pro-container {
     height: 55%;
     display: flex;
@@ -333,10 +326,6 @@ nav {
 .card-pro:hover img {
     transform: scale(1.3, 1.3);
     opacity: 0;
-}
-
-.contact {
-    height: 90vh;
 }
 
 .contact:hover svg {
@@ -391,7 +380,7 @@ nav {
     transition: 0.5s;
 }
 
-.social-links-container{
+.social-links-container {
     background-color: #06263f;
     color: white;
     font-size: 40px;
