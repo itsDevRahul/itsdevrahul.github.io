@@ -307,7 +307,7 @@ nav {
     background-color: #06263f;
     border: 2px var(--lightColor) solid;
     border-radius: 20px;
-    padding: 20px;
+    /* padding: 20px; */
     height: 50%;
     cursor: pointer;
     width: 32%;
@@ -315,17 +315,23 @@ nav {
     position: relative;
 }
 
-.card-pro img {
-    width: 100%;
+.project-content{
     position: absolute;
     top: 0;
-    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--darkColor);
+    padding: 20px;
+    clip-path: circle(0% at 0% 0%);
     transition: 0.5s;
 }
 
-.card-pro:hover img {
-    transform: scale(1.3, 1.3);
-    opacity: 0;
+.card-pro img {
+    width: 100%;
+}
+
+.card-pro:hover .project-content{
+    clip-path: circle(100%);
 }
 
 .contact:hover svg {

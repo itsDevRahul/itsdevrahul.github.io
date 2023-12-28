@@ -150,6 +150,10 @@
         font-size: 50px;
     }
 
+    .heading3 {
+        font-size: 30px;
+    }
+
     .mini-heading1 {
         font-size: 30px;
     }
@@ -165,6 +169,14 @@
 
     .desktop-only {
         display: none;
+    }
+
+    .form-input{
+        width: 90%;
+    }
+
+    .button3 {
+        width: 90%;
     }
 
 }
