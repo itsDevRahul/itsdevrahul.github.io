@@ -252,7 +252,7 @@ nav {
     border-radius: 30px;
     height: 100%;
     width: 30%;
-    padding: 20px;
+    padding: 21px;
 }
 
 .card:hover {
@@ -307,7 +307,6 @@ nav {
     background-color: #06263f;
     border: 2px var(--lightColor) solid;
     border-radius: 20px;
-    /* padding: 20px; */
     height: 50%;
     cursor: pointer;
     width: 32%;
@@ -320,10 +319,10 @@ nav {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: var(--darkColor);
+    background-color: var(--lightColor);
     padding: 20px;
     clip-path: circle(0% at 0% 0%);
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .card-pro img {
@@ -331,6 +330,7 @@ nav {
 }
 
 .card-pro:hover .project-content{
+    transition: 0.5s;
     clip-path: circle(100%);
 }
 

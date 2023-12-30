@@ -40,10 +40,8 @@ function getRandomColor() {
 getRandomColor();
 
 function lightOrDark(color) {
-
-    // Variables for red, green, blue values
+    //code from github
     var r, g, b, hsp;
-
     color = +("0x" + color.slice(1).replace(
         color.length < 5 && /./g, '$&$&'));
 
@@ -51,14 +49,11 @@ function lightOrDark(color) {
     g = color >> 8 & 255;
     b = color & 255;
 
-    // HSP (Highly Sensitive Poo) equation from http://alienryderflex.com/hsp.html
     hsp = Math.sqrt(
         0.299 * (r * r) +
         0.587 * (g * g) +
         0.114 * (b * b)
     );
-
-    console.log( color, hsp);
 
     // Using the HSP value, determine whether the color is light or dark
     if (hsp > 127.5 && hsp < 220) {
